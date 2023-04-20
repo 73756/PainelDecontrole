@@ -12,25 +12,25 @@ const Team = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
   const columns = [
-    { field: "id", headerName: "Id" },
+    { field: "id", headerName: "cadastro" },
     {
       field: "name",
-      headerName: "Name",
+      headerName: "Nome",
       width: 200,
       cellClassName: "name-column--cell",
     },
     {
       field: "age",
-      headerName: "Age",
+      headerName: "Efetivo",
       type: "number",
       headerAlign: "left",
       align: "left",
     },
-    { field: "phone", headerName: "Phone Number", width: 100 },
+    { field: "phone", headerName: "Contato", width: 100 },
     { field: "email", headerName: "Email", width: 200 },
     {
       field: "access",
-      headerName: "Access Llvel",
+      headerName: "nivel de acesso",
       width: 100,
       renderCell: ({ row: { access } }) => {
         return (
@@ -61,7 +61,7 @@ const Team = () => {
   return (
     <Box m="20px">
       <Box display="flex" justifyContent="space-between" alignItems="center">
-        <Header title="TEAM" subtitle="welcome to you Team" />
+        <Header title="Forças militares" subtitle="plano de chamada" />
       </Box>
       <Box
         m="8px 0 0 0"

@@ -106,7 +106,11 @@ const Calendar = () => {
 
   return (
     <Box m="20px">
+<<<<<<< Updated upstream
       <Header title="Calendario" subtitle="Adicione sua agenda!" />
+=======
+      <Header title="Calendário" subtitle="Reuniões" />
+>>>>>>> Stashed changes
       <Grid container spacing={2}>
         <Grid xs={12} md={4}>
           <Box
@@ -114,12 +118,17 @@ const Calendar = () => {
             p="15px"
             borderRadius="4px"
           >
+<<<<<<< Updated upstream
             <Typography variant="h5">Compromissos</Typography>
+=======
+            <Typography variant="h5">Eventos</Typography>
+>>>>>>> Stashed changes
             <List>
               {currentEvents.map((event) => (
                 <ListItem
                   key={event.id}
                   sx={{
+<<<<<<< Updated upstream
                     backgroundColor:
 colors.secondary[200],
 borderRadius: "4px",
@@ -198,6 +207,68 @@ dateClick={handleDateClick}
 eventClick={handleEventClick}
 />
 </Grid>
+=======
+                    backgroundColor: colors.greenAccent[500],
+                    margin: "10px 0",
+                    borderRadius: "2px",
+                  }}
+                >
+                  <ListItemText
+                    primary={event.title}
+                    secondary={
+                      <Typography>
+                        {formatDate(event.start, {
+                          year: "numeric",
+                          month: "short",
+                          day: "numeric",
+                        })}
+                      </Typography>
+                    }
+                  />
+                </ListItem>
+              ))}
+            </List>
+          </Box>
+        </Grid>
+        <Grid xs={12} md={8}>
+          <Box ml="15px">
+            <FullCalendar
+              height="75vh"
+              plugins={[
+                dayGridPlugin,
+                timeGridPlugin,
+                interactionPlugin,
+                listPlugin,
+              ]}
+              headerToolbar={{
+                left: "prev,next today",
+                center: "title",
+                right: "dayGridMonth,timeGridWeek,timeGridDay,listMonth",
+              }}
+              initialView="dayGridMonth"
+              editable={true}
+              selectable={true}
+              selectMirror={true}
+              dayMaxEvents={true}
+              select={handleDateClick}
+              eventClick={handleEventClick}
+              eventsSet={(events) => setCurrentEvents(events)}
+              initialEvents={[
+                {
+                  id: "12315",
+                  title: "eventos para o dia",
+                  date: "2022-09-14",
+                },
+                {
+                  id: "5123",
+                  title: "eventos para proxima semana",
+                  date: "2022-09-28",
+                },
+              ]}
+            />
+          </Box>
+        </Grid>
+>>>>>>> Stashed changes
       </Grid>
   {dialogOpen && (
     <Box

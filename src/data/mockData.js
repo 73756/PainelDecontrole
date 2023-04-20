@@ -3,76 +3,86 @@ import { tokens } from "../theme";
 export const mockDataTeam = [
   {
     id: 1,
-    name: "Jon Snow",
-    email: "jonsnow@gmail.com",
-    age: 35,
-    phone: "(665)121-5454",
+    name: "EUA",
+    email: "Eua@gmail.com",
+    age: 1.39,
+    phone: "(555)121-5454",
     access: "admin"
   },
   {
     id: 2,
-    name: "Cersei Lannister",
-    email: "cerseilannister@gmail.com",
-    age: 42,
+    name: "Rússia",
+    email: "RUSSIA@gmail.com",
+    age: 0.830,
     phone: "(421)314-2288",
-    access: "manager"
+    access: "admin"
   },
   {
     id: 3,
-    name: "Jaime Lannister",
+    name: "China",
     email: "jaimelannister@gmail.com",
-    age: 45,
+    age: 2.0,
     phone: "(422)982-6739",
-    access: "user"
+    access: "admin"
   },
   {
     id: 4,
-    name: "Anya Stark",
-    email: "anyastark@gmail.com",
-    age: 16,
+    name: "Índia",
+    email: "Índia@gmail.com",
+    age: 1.45,
     phone: "(921)425-6742",
     access: "admin"
   },
   {
     id: 5,
-    name: "Daenerys Targaryen",
-    email: "daenerystargaryen@gmail.com",
-    age: 31,
+    name: "Reino Unido",
+    email: "Reino Unido@gmail.com",
+    age: 0.194,
     phone: "(421)445-1189",
-    access: "user"
+    access: "admin"
   },
   {
     id: 6,
-    name: "Ever Melisandre",
-    email: "evermelisandre@gmail.com",
-    age: 150,
+    name: "Coreia do Sul",
+    email: "Coreia do Sul@gmail.com",
+    age: 0.55,
     phone: "(232)545-6483",
     access: "manager"
   },
   {
     id: 7,
-    name: "Ferrara Clifford",
-    email: "ferraraclifford@gmail.com",
-    age: 44,
+    name: "Paquistão",
+    email: "Paquistão@gmail.com",
+    age: 0.654,
     phone: "(543)124-0123",
-    access: "user"
+    access: "manager"
   },
   {
     id: 8,
-    name: "Rossini Frances",
-    email: "rossinifrances@gmail.com",
-    age: 36,
+    name: "Japão",
+    email: "japão@gmail.com",
+    age: 0.240,
     phone: "(222)444-5555",
-    access: "user"
+    access: "manager"
   },
   {
     id: 9,
-    name: "Harvey Roxie",
-    email: "harveyroxie@gmail.com",
-    age: 65,
+    name: "França",
+    email: "França@gmail.com",
+    age: 0.205,
     phone: "(444)555-6239",
-    access: "admin"
+    access: "manager"
+  },
+
+  {
+    id: 10,
+    name: "Itália",
+    email: "Itália@gmail.com",
+    age: 0.170,
+    phone: "(444)555-6239",
+    access: "manager"
   }
+  
 ];
 
 export const mockDataContacts = [
