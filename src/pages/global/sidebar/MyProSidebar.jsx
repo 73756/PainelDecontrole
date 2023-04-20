@@ -114,7 +114,7 @@ const MyProSidebar = () => {
                 ml="15px"
               >
                 <Typography variant="h3" color={colors.grey[100]}>
-                  ADMINIS
+                  Projeto de bloco
                 </Typography>
                 <IconButton
                   onClick={
@@ -154,7 +154,7 @@ const MyProSidebar = () => {
                   fontWeight="bold"
                   sx={{ m: "10px 0 0 0" }}
                 >
-                  Harun Jeylan
+                  ONU
                 </Typography>
               </Box>
             </Box>
@@ -173,17 +173,17 @@ const MyProSidebar = () => {
               color={colors.grey[300]}
               sx={{ m: "15px 20px 5px 20px" }}
             >
-              Data
+              eventos
             </Typography>
             <Item
-              title="Manage Team"
+              title="Efetivos"
               to="/team"
               icon={<PeopleOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
-              title="Contacts Information"
+              title="Contatos"
               to="/contacts"
               icon={<ContactsOutlinedIcon />}
               selected={selected}
@@ -202,24 +202,24 @@ const MyProSidebar = () => {
               color={colors.grey[300]}
               sx={{ m: "15px 20px 5px 20px" }}
             >
-              Pages
+              Paginas
             </Typography>
             <Item
-              title="Profile Form"
+              title="Cadastro"
               to="/form"
               icon={<PersonOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
-              title="Calendar"
+              title="Calendario"
               to="/calendar"
               icon={<CalendarTodayOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
-              title="FAQ Page"
+              title="FAQ "
               to="/faq"
               icon={<HelpOutlineOutlinedIcon />}
               selected={selected}
@@ -231,31 +231,31 @@ const MyProSidebar = () => {
               color={colors.grey[300]}
               sx={{ m: "15px 20px 5px 20px" }}
             >
-              Charts
+              Graficos
             </Typography>
             <Item
-              title="Bar Chart"
+              title="Metricas"
               to="/bar"
               icon={<BarChartOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
-              title="Pie Chart"
+              title="Percentuais"
               to="/pie"
               icon={<PieChartOutlineOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
-              title="Line Chart"
+              title="Tendencias"
               to="/line"
               icon={<TimelineOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
-              title="Geography Chart"
+              title="Mapas"
               to="/geography"
               icon={<MapOutlinedIcon />}
               selected={selected}

@@ -32,7 +32,7 @@ const Form = () => {
 
     return (
         <Box m="20px">
-          <Header title="CREATE USER" subtitle="Create a New User Profile" />
+          <Header title="Cadastro" subtitle="Criar novo cadastro" />
     
           <Formik onSubmit={handleFormSubmit} initialValues={initialValues} validationSchema={checkoutSchema}>
             {({ values, errors, touched, handleBlur, handleChange, handleSubmit,}) => (
@@ -49,7 +49,7 @@ const Form = () => {
                     fullWidth
                     variant="filled"
                     type="text"
-                    label="First Name"
+                    label="Nome"
                     onBlur={handleBlur}
                     onChange={handleChange}
                     value={values.firstName}
@@ -62,7 +62,7 @@ const Form = () => {
                     fullWidth
                     variant="filled"
                     type="text"
-                    label="Last Name"
+                    label="Sobrenome"
                     onBlur={handleBlur}
                     onChange={handleChange}
                     value={values.lastName}
@@ -88,7 +88,7 @@ const Form = () => {
                     fullWidth
                     variant="filled"
                     type="text"
-                    label="Contact Number"
+                    label="telefone"
                     onBlur={handleBlur}
                     onChange={handleChange}
                     value={values.contact}
@@ -101,7 +101,7 @@ const Form = () => {
                     fullWidth
                     variant="filled"
                     type="text"
-                    label="Address 1"
+                    label="Endereço 1"
                     onBlur={handleBlur}
                     onChange={handleChange}
                     value={values.address1}
@@ -114,7 +114,7 @@ const Form = () => {
                     fullWidth
                     variant="filled"
                     type="text"
-                    label="Address 2"
+                    label="Endereço 2"
                     onBlur={handleBlur}
                     onChange={handleChange}
                     value={values.address2}
@@ -126,7 +126,7 @@ const Form = () => {
                 </Box>
                 <Box display="flex" justifyContent="end" mt="20px">
                   <Button type="submit" color="secondary" variant="contained">
-                    Create New User
+                    cadastrar
                   </Button>
                 </Box>
               </form>

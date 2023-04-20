@@ -106,11 +106,8 @@ const Calendar = () => {
 
   return (
     <Box m="20px">
-<<<<<<< Updated upstream
       <Header title="Calendario" subtitle="Adicione sua agenda!" />
-=======
       <Header title="Calendário" subtitle="Reuniões" />
->>>>>>> Stashed changes
       <Grid container spacing={2}>
         <Grid xs={12} md={4}>
           <Box
@@ -118,17 +115,12 @@ const Calendar = () => {
             p="15px"
             borderRadius="4px"
           >
-<<<<<<< Updated upstream
             <Typography variant="h5">Compromissos</Typography>
-=======
-            <Typography variant="h5">Eventos</Typography>
->>>>>>> Stashed changes
             <List>
               {currentEvents.map((event) => (
                 <ListItem
                   key={event.id}
                   sx={{
-<<<<<<< Updated upstream
                     backgroundColor:
 colors.secondary[200],
 borderRadius: "4px",
@@ -207,7 +199,6 @@ dateClick={handleDateClick}
 eventClick={handleEventClick}
 />
 </Grid>
-=======
                     backgroundColor: colors.greenAccent[500],
                     margin: "10px 0",
                     borderRadius: "2px",
@@ -268,7 +259,6 @@ eventClick={handleEventClick}
             />
           </Box>
         </Grid>
->>>>>>> Stashed changes
       </Grid>
   {dialogOpen && (
     <Box

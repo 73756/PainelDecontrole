@@ -5,7 +5,7 @@ import Header from "../../components/Header";
 const Geography = () => {
   return (
     <Box m="20px" height="75vh" p="2px">
-      <Header title="Line CHART" subtitle="simple line chart" />
+      <Header title="MAPA MUNDI" subtitle="Territorial" />
       <GeographyChart />
     </Box>
   );
